@@ -1,0 +1,10 @@
+Target_Sensor,R2_From_All_Other_Sensors
+Temperature_C,5.0769554830520924e-05
+Vibration_Hz,0.00012489499719192665
+Power_Consumption_kW,6.975955669785705e-05
+Network_Latency_ms,0.00015031145176480631
+Packet_Loss_%,0.00013880946784139425
+Quality_Control_Defect_Rate_%,7.617500695111801e-05
+Production_Speed_units_per_hr,0.0001331507236057572
+Predictive_Maintenance_Score,6.471223145210203e-05
+Error_Rate_%,8.97472688430323e-05

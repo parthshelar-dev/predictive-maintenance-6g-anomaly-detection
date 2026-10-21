@@ -1,0 +1,41 @@
+Date,Simultaneous_Machines_Count,Affected_Machine_IDs,Mean_Cluster_Score,Cascade_Signature
+2025-01-01,32,"[1, 2, 5, 6, 7, 8, 9, 10, 11, 12, 13, 17, 18, 19, 21, 23, 24, 26, 30, 32, 34, 35, 36, 37, 39, 40, 41, 43, 44, 47, 49, 50]",0.3673,Factory-Wide Network / Environmental Wave
+2025-01-03,4,"[5, 26, 42, 49]",0.3684,Multi-Asset Wear Wave
+2025-01-09,5,"[2, 35, 38, 41, 49]",0.3838,Multi-Asset Wear Wave
+2025-01-11,3,"[20, 31, 32]",0.3657,Multi-Asset Wear Wave
+2025-01-19,4,"[5, 9, 32, 47]",0.3827,Multi-Asset Wear Wave
+2025-01-20,4,"[9, 14, 21, 50]",0.3532,Multi-Asset Wear Wave
+2025-01-21,3,"[13, 19, 33]",0.3985,Multi-Asset Wear Wave
+2025-01-22,5,"[8, 17, 27, 28, 31]",0.3491,Multi-Asset Wear Wave
+2025-01-23,3,"[8, 9, 35]",0.376,Multi-Asset Wear Wave
+2025-01-26,3,"[12, 16, 48]",0.361,Multi-Asset Wear Wave
+2025-01-28,4,"[14, 32, 44, 48]",0.3499,Multi-Asset Wear Wave
+2025-01-30,5,"[3, 5, 29, 30, 38]",0.3222,Multi-Asset Wear Wave
+2025-02-04,4,"[21, 28, 36, 41]",0.3803,Multi-Asset Wear Wave
+2025-02-06,6,"[23, 28, 45, 46, 47, 49]",0.3589,Factory-Wide Network / Environmental Wave
+2025-02-10,3,"[13, 14, 33]",0.3442,Multi-Asset Wear Wave
+2025-02-12,3,"[15, 35, 40]",0.3735,Multi-Asset Wear Wave
+2025-02-14,3,"[9, 13, 50]",0.3781,Multi-Asset Wear Wave
+2025-02-16,4,"[14, 28, 33, 41]",0.3567,Multi-Asset Wear Wave
+2025-02-17,4,"[7, 11, 27, 43]",0.4096,Multi-Asset Wear Wave
+2025-02-18,3,"[7, 22, 46]",0.5086,Multi-Asset Wear Wave
+2025-02-19,8,"[7, 10, 12, 14, 15, 25, 36, 40]",0.4413,Factory-Wide Network / Environmental Wave
+2025-02-20,3,"[7, 14, 22]",0.6486,Multi-Asset Wear Wave
+2025-02-21,3,"[7, 14, 38]",0.7454,Multi-Asset Wear Wave
+2025-02-22,5,"[7, 14, 28, 30, 33]",0.6161,Multi-Asset Wear Wave
+2025-02-23,8,"[7, 14, 18, 28, 29, 34, 35, 38]",0.5391,Factory-Wide Network / Environmental Wave
+2025-02-24,5,"[7, 11, 14, 28, 35]",0.6899,Multi-Asset Wear Wave
+2025-02-25,5,"[7, 14, 28, 34, 36]",0.7153,Multi-Asset Wear Wave
+2025-02-26,5,"[7, 14, 17, 28, 35]",0.6951,Multi-Asset Wear Wave
+2025-02-27,9,"[1, 3, 4, 7, 8, 14, 28, 33, 42]",0.56,Factory-Wide Network / Environmental Wave
+2025-02-28,7,"[4, 7, 10, 14, 26, 28, 42]",0.5976,Factory-Wide Network / Environmental Wave
+2025-03-01,16,"[2, 3, 7, 14, 16, 17, 20, 25, 28, 29, 30, 33, 38, 45, 46, 48]",0.4591,Factory-Wide Network / Environmental Wave
+2025-03-02,11,"[3, 7, 14, 15, 17, 19, 22, 23, 28, 33, 47]",0.5997,Factory-Wide Network / Environmental Wave
+2025-03-03,7,"[3, 7, 14, 19, 28, 33, 43]",0.7536,Factory-Wide Network / Environmental Wave
+2025-03-04,12,"[3, 7, 8, 14, 18, 19, 25, 28, 30, 33, 39, 44]",0.6327,Factory-Wide Network / Environmental Wave
+2025-03-05,11,"[3, 7, 14, 18, 19, 20, 23, 28, 33, 45, 46]",0.6731,Factory-Wide Network / Environmental Wave
+2025-03-06,12,"[3, 7, 14, 19, 21, 26, 28, 33, 36, 41, 45, 46]",0.6821,Factory-Wide Network / Environmental Wave
+2025-03-07,12,"[3, 7, 14, 19, 28, 33, 40, 41, 43, 45, 48, 49]",0.7179,Factory-Wide Network / Environmental Wave
+2025-03-08,8,"[3, 7, 14, 19, 28, 33, 45, 49]",0.9487,Factory-Wide Network / Environmental Wave
+2025-03-09,9,"[3, 7, 14, 19, 28, 33, 36, 45, 49]",0.9042,Factory-Wide Network / Environmental Wave
+2025-03-10,9,"[3, 7, 11, 14, 19, 28, 33, 45, 49]",0.9099,Factory-Wide Network / Environmental Wave

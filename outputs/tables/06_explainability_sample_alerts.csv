@@ -1,0 +1,6 @@
+Machine_ID,Timestamp,Fault_Type,Anomaly_Score,Top_Root_Cause_Drivers
+39,2025-01-01 00:00:00,none,0.751,pdm_decay_slope_w10 (+0.113); Vibration_Hz_z (+0.108); error_rate_slope_w10 (+0.107)
+29,2025-01-01 00:01:00,none,0.919,pdm_decay_slope_w10 (+0.115); Error_Rate_%_z (+0.101); Packet_Loss_%_z (+0.088)
+15,2025-01-01 00:02:00,none,0.804,error_rate_slope_w10 (+0.101); Network_Latency_ms_z (+0.097); Power_Consumption_kW_z (+0.097)
+43,2025-01-01 00:03:00,none,1.0,error_rate_slope_w10 (+0.095); pdm_decay_slope_w10 (+0.089); temp_trend_slope_w10 (+0.062)
+8,2025-01-01 00:04:00,none,0.976,pdm_decay_slope_w10 (+0.116); Predictive_Maintenance_Score_z (+0.100); error_rate_slope_w10 (+0.078)

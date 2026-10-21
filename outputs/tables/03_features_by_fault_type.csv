@@ -1,0 +1,12 @@
+,Mean_mechanical,Mean_network,Mean_none
+Temperature_C_z,0.935,0.0,-0.002
+temp_z_roll_mean_w15,0.908,0.026,-0.002
+temp_trend_slope_w10,0.08,-0.114,-0.0
+Vibration_Hz_z,2.077,-0.085,0.0
+vib_z_roll_mean_w15,2.025,-0.063,0.0
+vib_power_instability_w10,0.409,0.649,0.596
+power_roll_std_w15,3.859,2.309,2.43
+error_rate_slope_w10,0.073,0.02,0.0
+pdm_decay_slope_w10,-0.001,0.003,-0.0
+Network_Latency_ms_z,-0.002,7.509,0.003
+network_stress_index,0.602,17.581,0.605

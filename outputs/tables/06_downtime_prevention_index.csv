@@ -1,0 +1,14 @@
+Metric,Value,Unit
+Total Injected Catastrophic Failures,8,Assets
+Actionable Failures Prevented (Lead Time >= 12h),8,Assets
+Failure Prevention Rate,100.0,%
+Unplanned Repair Downtime Assumption,16.0,Hours/Incident
+Planned Maintenance Downtime Assumption,3.0,Hours/Incident
+Net Downtime Saved Per Prevented Failure,13.0,Hours/Incident
+Total Factory Downtime Hours Prevented,104.0,Hours
+Downtime Prevention Index (DPI),81.25,% of Max Downtime
+"Downtime Financial Value Saved ($5,000/hr)","$520,000.00",USD
+False Inspection Dispatches on Healthy Test Data,417,Events
+Cost of False Inspections ($400/event),"$166,800.00",USD
+Net Economic Benefit to Manufacturer,"$353,200.00",USD
+Economic Benefit-to-Inspection Cost Ratio,3.1x,Ratio

@@ -1,0 +1,22 @@
+Feature_Name,Description,Category
+Temperature_C_z,Mode-conditioned robust z-score of machine operating temperature,Thermal Baseline Deviation
+Vibration_Hz_z,Mode-conditioned robust z-score of machine vibration frequency,Mechanical Baseline Deviation
+Power_Consumption_kW_z,Mode-conditioned robust z-score of electrical power consumption,Electrical Baseline Deviation
+Error_Rate_%_z,Mode-conditioned robust z-score of process manufacturing error rate,Process Quality Deviation
+Predictive_Maintenance_Score_z,Mode-conditioned robust z-score of embedded PDM score,Asset Health Score Deviation
+temp_z_roll_mean_w5,Rolling mean of temperature z-score over 5 readings per machine,Short-term Thermal State
+temp_roll_std_w5,Rolling std of temperature over 5 readings per machine,Thermal Volatility
+vib_z_roll_mean_w5,Rolling mean of vibration z-score over 5 readings per machine,Short-term Bearing Vibration
+vib_roll_max_w5,Rolling peak vibration over 5 readings per machine,Kinematic Shock / Peak
+power_roll_std_w5,Rolling std of power consumption over 5 readings (load instability),Electrical Load Jitter
+temp_z_roll_mean_w15,Rolling mean of temperature z-score over 15 readings (~12h),Sustained Thermal Runaway
+vib_z_roll_mean_w15,Rolling mean of vibration z-score over 15 readings (~12h),Sustained Bearing Degradation
+power_roll_std_w15,Rolling std of power consumption over 15 readings (~12h),Long-term Mechanical Friction Volatility
+vib_to_power_ratio,Instantaneous ratio of vibration to power consumption,Kinematic Power Coupling
+vib_power_instability_w10,Ratio of rolling vibration std to rolling power std over 10 readings,Dynamic Friction Instability
+error_rate_slope_w10,Linear regression slope of Error Rate over last 10 readings,Defect Escalation Rate
+pdm_decay_slope_w10,Linear regression slope of PDM score over last 10 readings,Asset Health Decay Velocity
+temp_trend_slope_w10,Linear regression slope of temperature over last 10 readings,Thermal Runaway Velocity
+Network_Latency_ms_z,Mode-conditioned robust z-score of 6G communication latency,6G Network Latency Stress
+Packet_Loss_%_z,Mode-conditioned robust z-score of 6G packet loss percentage,6G Transmission Loss Stress
+network_stress_index,Vector magnitude of positive latency and packet loss deviations,Composite 6G Communication Stress

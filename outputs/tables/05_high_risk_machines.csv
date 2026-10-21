@@ -1,0 +1,51 @@
+Machine_ID,Priority_Score,Recent_Mean_Score,Recent_Max_Score,Escalation_Slope_7d,High_Risk_Alert_Count,Primary_Diagnostic,Recommended_Action,Priority_Rank
+19,0.9119,0.945,1.0,0.0819,187,Mechanical Wear Confirmed,"Dispatch Mechanical Maintenance: Inspect Bearings, Motor Drive & Thermal Cooling",1
+3,0.8651,0.9463,1.0,0.0684,210,Mechanical Wear Confirmed,"Dispatch Mechanical Maintenance: Inspect Bearings, Motor Drive & Thermal Cooling",2
+33,0.8071,0.7907,1.0,0.0718,181,Mechanical Wear Confirmed,"Dispatch Mechanical Maintenance: Inspect Bearings, Motor Drive & Thermal Cooling",3
+45,0.7834,0.7175,1.0,0.0744,152,Mechanical Wear Confirmed,"Dispatch Mechanical Maintenance: Inspect Bearings, Motor Drive & Thermal Cooling",4
+14,0.6477,0.9765,1.0,0.0024,201,Mechanical Wear Confirmed,"Dispatch Mechanical Maintenance: Inspect Bearings, Motor Drive & Thermal Cooling",5
+7,0.6335,0.9546,1.0,0.0011,219,Mechanical Wear Confirmed,"Dispatch Mechanical Maintenance: Inspect Bearings, Motor Drive & Thermal Cooling",6
+49,0.628,0.572,1.0,0.0487,88,Mechanical Wear Confirmed,"Dispatch Mechanical Maintenance: Inspect Bearings, Motor Drive & Thermal Cooling",7
+28,0.6201,0.9334,1.0,-0.0001,191,Mechanical Wear Confirmed,"Dispatch Mechanical Maintenance: Inspect Bearings, Motor Drive & Thermal Cooling",8
+46,0.2844,0.3482,0.689,0.0079,15,Mechanical Wear Confirmed,"Dispatch Mechanical Maintenance: Inspect Bearings, Motor Drive & Thermal Cooling",9
+41,0.2496,0.3063,0.8533,0.0053,14,Mechanical Wear Confirmed,"Dispatch Mechanical Maintenance: Inspect Bearings, Motor Drive & Thermal Cooling",10
+20,0.2419,0.3239,0.7751,0.0046,12,Mechanical Wear Confirmed,"Dispatch Mechanical Maintenance: Inspect Bearings, Motor Drive & Thermal Cooling",11
+36,0.2292,0.3039,0.9548,0.0036,12,Mechanical Wear Confirmed,"Dispatch Mechanical Maintenance: Inspect Bearings, Motor Drive & Thermal Cooling",12
+18,0.2136,0.291,0.729,0.0027,11,Mechanical Wear Confirmed,"Dispatch Mechanical Maintenance: Inspect Bearings, Motor Drive & Thermal Cooling",13
+43,0.1994,0.2965,0.7002,0.0017,9,Nominal / Low Drift,Routine Monitoring,14
+26,0.1971,0.279,0.7013,0.0033,9,Nominal / Low Drift,Routine Monitoring,15
+30,0.1937,0.2992,0.7729,0.0035,7,Nominal / Low Drift,Routine Monitoring,16
+48,0.1923,0.2806,0.7802,0.0074,6,Nominal / Low Drift,Routine Monitoring,17
+27,0.1921,0.3034,0.6702,0.0045,6,Nominal / Low Drift,Routine Monitoring,18
+17,0.1899,0.317,0.7105,0.004,5,Nominal / Low Drift,Routine Monitoring,19
+23,0.174,0.283,0.7376,-0.0017,7,Nominal / Low Drift,Routine Monitoring,20
+21,0.1733,0.2765,0.8735,0.0025,6,Nominal / Low Drift,Routine Monitoring,21
+34,0.1716,0.3011,0.6587,0.0046,3,Nominal / Low Drift,Routine Monitoring,22
+11,0.1702,0.2921,0.6961,0.0034,4,Nominal / Low Drift,Routine Monitoring,23
+2,0.1684,0.2769,0.717,0.003,5,Nominal / Low Drift,Routine Monitoring,24
+38,0.1681,0.2847,0.7274,-0.0032,6,Nominal / Low Drift,Routine Monitoring,25
+8,0.1625,0.2722,0.7378,-0.0071,6,Nominal / Low Drift,Routine Monitoring,26
+39,0.1577,0.2616,0.7049,-0.0022,6,Nominal / Low Drift,Routine Monitoring,27
+29,0.1546,0.2757,0.643,0.0011,4,Nominal / Low Drift,Routine Monitoring,28
+47,0.1538,0.2677,0.6978,-0.0041,5,Nominal / Low Drift,Routine Monitoring,29
+44,0.1527,0.2654,0.7119,-0.0019,5,Nominal / Low Drift,Routine Monitoring,30
+40,0.1496,0.2732,0.7795,-0.0016,4,Nominal / Low Drift,Routine Monitoring,31
+25,0.1477,0.2542,0.7772,-0.0134,5,Nominal / Low Drift,Routine Monitoring,32
+12,0.1473,0.268,0.7174,-0.0046,4,Nominal / Low Drift,Routine Monitoring,33
+24,0.1459,0.2741,0.7237,0.0007,3,Nominal / Low Drift,Routine Monitoring,34
+6,0.1444,0.2881,0.7119,0.0004,2,Nominal / Low Drift,Routine Monitoring,35
+35,0.1442,0.2611,0.8139,-0.0028,4,Nominal / Low Drift,Routine Monitoring,36
+16,0.1436,0.2598,0.6564,-0.0069,4,Nominal / Low Drift,Routine Monitoring,37
+4,0.1434,0.2595,0.7235,-0.0047,4,Nominal / Low Drift,Routine Monitoring,38
+13,0.1428,0.2581,0.6868,-0.0012,4,Nominal / Low Drift,Routine Monitoring,39
+42,0.1421,0.2713,0.651,-0.0039,3,Nominal / Low Drift,Routine Monitoring,40
+32,0.1403,0.2743,0.6025,0.001,2,Nominal / Low Drift,Routine Monitoring,41
+10,0.1378,0.2827,0.6492,0.0011,1,Nominal / Low Drift,Routine Monitoring,42
+9,0.1367,0.2521,0.6685,0.0009,3,Nominal / Low Drift,Routine Monitoring,43
+50,0.1337,0.2484,0.7035,0.0006,3,Nominal / Low Drift,Routine Monitoring,44
+31,0.1301,0.2563,0.7476,0.0023,1,Nominal / Low Drift,Routine Monitoring,45
+1,0.129,0.2717,0.6222,-0.0033,1,Nominal / Low Drift,Routine Monitoring,46
+37,0.1267,0.2518,0.6467,-0.0058,2,Nominal / Low Drift,Routine Monitoring,47
+15,0.1181,0.2477,0.6147,-0.0042,1,Nominal / Low Drift,Routine Monitoring,48
+22,0.1121,0.2343,0.604,-0.0041,1,Nominal / Low Drift,Routine Monitoring,49
+5,0.1114,0.2476,0.5836,-0.0028,0,Nominal / Low Drift,Routine Monitoring,50

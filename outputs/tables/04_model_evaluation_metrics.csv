@@ -1,0 +1,9 @@
+Target,Model,Val_Optimal_Threshold,Test_Precision,Test_Recall,Test_F1_Score,Test_PR_AUC,Test_ROC_AUC
+All Faults (is_fault),Isolation Forest,0.71,0.9701,0.7247,0.8297,0.8604,0.9229
+All Faults (is_fault),Autoencoder,0.1,1.0,0.7387,0.8497,0.8692,0.9186
+All Faults (is_fault),Pca Reconstruction,0.13,0.9716,0.7646,0.8558,0.8576,0.9108
+All Faults (is_fault),Zscore Baseline,0.2,0.9986,0.7767,0.8738,0.8736,0.9136
+Mechanical Faults,Isolation Forest,0.72,0.9722,0.7463,0.8444,0.8652,0.9227
+Mechanical Faults,Autoencoder,0.1,0.949,0.7284,0.8242,0.7912,0.9111
+Mechanical Faults,Pca Reconstruction,0.13,0.9237,0.7554,0.8311,0.7741,0.9028
+Mechanical Faults,Zscore Baseline,0.18,0.9319,0.7813,0.85,0.78,0.9056

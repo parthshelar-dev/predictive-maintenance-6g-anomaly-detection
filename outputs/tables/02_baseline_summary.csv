@@ -1,0 +1,10 @@
+Sensor,Global_Median,Global_IQR,Global_Q25,Global_Q75
+Temperature_C,60.068,29.968,45.0,74.968
+Vibration_Hz,2.547,2.454,1.322,3.776
+Power_Consumption_kW,5.75,4.241,3.631,7.872
+Network_Latency_ms,25.55,24.515,13.256,37.771
+Packet_Loss_%,2.485,2.497,1.236,3.733
+Quality_Control_Defect_Rate_%,5.027,4.97,2.544,7.514
+Production_Speed_units_per_hr,275.393,226.072,162.434,388.506
+Predictive_Maintenance_Score,0.501,0.502,0.248,0.75
+Error_Rate_%,7.529,7.501,3.777,11.278

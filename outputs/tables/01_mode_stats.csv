@@ -1,0 +1,6 @@
+Variable,Active Mean,Idle Mean,Maint Mean,ANOVA F,ANOVA p-val
+Temperature_C,60.057,60.016,59.983,0.1064,0.899
+Vibration_Hz,2.553,2.537,2.555,1.0313,0.3566
+Power_Consumption_kW,5.751,5.735,5.731,0.5563,0.5733
+Predictive_Maintenance_Score,0.501,0.495,0.497,3.7708,0.023
+Error_Rate_%,7.494,7.523,7.537,0.6446,0.5249

@@ -1,0 +1,7 @@
+﻿data/raw/
+data/processed/*
+!data/processed/05_risk_mapped.csv.gz
+Research Papers/
+.ipynb_checkpoints/
+__pycache__/
+*.pyc

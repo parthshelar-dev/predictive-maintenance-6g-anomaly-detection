@@ -1,0 +1,10 @@
+Feature,Gini Importance,Permutation Importance Mean,Permutation Importance Std
+Error_Rate_%,0.5871970195254574,0.309642,0.0011916610256276937
+Production_Speed_units_per_hr,0.41280298047454256,0.17446599999999998,0.0005498581635294907
+Temperature_C,0.0,0.0,0.0
+Vibration_Hz,0.0,0.0,0.0
+Power_Consumption_kW,0.0,0.0,0.0
+Packet_Loss_%,0.0,0.0,0.0
+Network_Latency_ms,0.0,0.0,0.0
+Quality_Control_Defect_Rate_%,0.0,0.0,0.0
+Predictive_Maintenance_Score,0.0,0.0,0.0

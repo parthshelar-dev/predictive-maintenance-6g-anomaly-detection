@@ -1,0 +1,4 @@
+Baseline_Strategy,Healthy_False_Alarm_Rate_%,Test_Precision,Test_Recall,Test_F1_Score,FAR_Reduction_vs_Global_%
+Global Baseline,0.0,0.812,0.704,0.754,
+Machine-Only Baseline,0.0,0.875,0.721,0.79,
+Mode-Conditioned Baseline,0.0,0.972,0.746,0.844,

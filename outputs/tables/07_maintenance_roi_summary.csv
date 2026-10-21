@@ -1,0 +1,2 @@
+Total_Injected_Failures,Failures_Detected,Actionable_Failures_>=12h,Actionable_Detection_Rate_%,Min_Lead_Time_Hours,Median_Lead_Time_Hours,Mean_Lead_Time_Hours,Max_Lead_Time_Hours,Downtime_Prevention_Index_DPI,Net_Economic_Benefit_USD,ROI_Ratio
+8,8,8,100.0%,51.7h,110.1h,105.6h,126.9h,81.25%,"$353,200.00",3.1x

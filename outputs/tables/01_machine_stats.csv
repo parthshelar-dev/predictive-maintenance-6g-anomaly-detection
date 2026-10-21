@@ -1,0 +1,6 @@
+Variable,Std of Machine Means,ANOVA F,ANOVA p-val,Kruskal H,Kruskal p-val
+Temperature_C,0.376,0.9397,0.5937,46.021,0.5946
+Vibration_Hz,0.025,0.6229,0.9822,30.5378,0.9821
+Power_Consumption_kW,0.0563,1.0581,0.3635,51.8535,0.3632
+Predictive_Maintenance_Score,0.0063,0.9648,0.5432,47.3134,0.5417
+Error_Rate_%,0.0908,0.8762,0.7163,42.9383,0.7162
