@@ -5,6 +5,7 @@ anomaly alerting, root-cause explainability, and historical maintenance validati
 """
 
 import os
+from pathlib import Path
 import sys
 import numpy as np
 import pandas as pd
@@ -92,24 +93,24 @@ st.markdown("""
 @st.cache_data(show_spinner=False)
 def load_data():
     """Loads processed risk data, daily aggregations, and high risk summary."""
-    base_dir = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
-    risk_path = os.path.join(base_dir, "data", "processed", "05_risk_mapped.csv.gz")
-    high_risk_path = os.path.join(base_dir, "outputs", "tables", "05_high_risk_machines.csv")
-    daily_path = os.path.join(base_dir, "outputs", "tables", "05_daily_temporal_risk.csv")
-    lead_path = os.path.join(base_dir, "outputs", "tables", "06_lead_time_distribution.csv")
-    shap_path = os.path.join(base_dir, "outputs", "tables", "06_shap_feature_importance.csv")
-    dpi_path = os.path.join(base_dir, "outputs", "tables", "06_downtime_prevention_index.csv")
+    base_dir = Path(__file__).resolve().parent.parent
+    risk_path = base_dir / "data" / "processed" / "05_risk_mapped.csv.gz"
+    high_risk_path = base_dir / "outputs" / "tables" / "05_high_risk_machines.csv"
+    daily_path = base_dir / "outputs" / "tables" / "05_daily_temporal_risk.csv"
+    lead_path = base_dir / "outputs" / "tables" / "06_lead_time_distribution.csv"
+    shap_path = base_dir / "outputs" / "tables" / "06_shap_feature_importance.csv"
+    dpi_path = base_dir / "outputs" / "tables" / "06_downtime_prevention_index.csv"
     
     df_risk = pd.read_csv(risk_path, low_memory=False)
     df_risk['datetime'] = pd.to_datetime(df_risk['datetime'])
     
-    df_high = pd.read_csv(high_risk_path) if os.path.exists(high_risk_path) else pd.DataFrame()
-    df_daily = pd.read_csv(daily_path) if os.path.exists(daily_path) else pd.DataFrame()
+    df_high = pd.read_csv(high_risk_path) if high_risk_path.exists() else pd.DataFrame()
+    df_daily = pd.read_csv(daily_path) if daily_path.exists() else pd.DataFrame()
     if not df_daily.empty:
         df_daily['date'] = pd.to_datetime(df_daily['date'])
-    df_lead = pd.read_csv(lead_path) if os.path.exists(lead_path) else pd.DataFrame()
-    df_shap = pd.read_csv(shap_path) if os.path.exists(shap_path) else pd.DataFrame()
-    df_dpi = pd.read_csv(dpi_path) if os.path.exists(dpi_path) else pd.DataFrame()
+    df_lead = pd.read_csv(lead_path) if lead_path.exists() else pd.DataFrame()
+    df_shap = pd.read_csv(shap_path) if shap_path.exists() else pd.DataFrame()
+    df_dpi = pd.read_csv(dpi_path) if dpi_path.exists() else pd.DataFrame()
     
     return df_risk, df_high, df_daily, df_lead, df_shap, df_dpi
 
