@@ -17,7 +17,7 @@ import streamlit as st
 # Configure page metadata
 st.set_page_config(
     page_title="6G Smart Manufacturing PdM Dashboard",
-    page_icon="ðŸ­",
+    page_icon="🏭",
     layout="wide",
     initial_sidebar_state="expanded"
 )
@@ -198,7 +198,7 @@ if nav_module == "1. Predictive Maintenance Overview":
     high_risk_assets = df_high[df_high['Priority_Score'] >= 0.60]['Machine_ID'].nunique() if not df_high.empty else 8
     dpi_val = "81.25%"
     median_lead = "110.1 hrs"
-    net_savings = "$353,200"
+    net_savings = r"\$353,200"
     
     col1, col2, col3, col4, col5 = st.columns(5)
     with col1:
@@ -344,7 +344,7 @@ elif nav_module == "2. Machine Anomaly Dashboard":
         )
         
         fig_scores.update_layout(
-            title=f"Machine {target_m}: Normalized Anomaly Scores (0â€“1)",
+            title=f"Machine {target_m}: Normalized Anomaly Scores (0–1)",
             xaxis_title="Timestamp",
             yaxis_title="Anomaly Score",
             margin=dict(l=10, r=10, t=35, b=10),
@@ -426,7 +426,7 @@ elif nav_module == "3. Maintenance Alert Panel":
         
         # Summary metrics
         st.success("**Mechanical Dispatch Reduction:** 98.4% of network glitches successfully filtered out, eliminating unnecessary technician dispatches.")
-        st.info("**Estimated Unnecessary Dispatch Cost Saved:** $35,200 (at $400 per truck roll).")
+        st.info(r"**Estimated Unnecessary Dispatch Cost Saved:** \$35,200 (at \$400 per truck roll).")
 
 
 # =========================================================================
