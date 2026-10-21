@@ -1,7 +1,30 @@
 # 6G-Integrated Predictive Maintenance and Anomaly Detection in Smart Manufacturing
 
+Live demo: [https://predictive-maintenance-anomaly-detection.streamlit.app/](https://predictive-maintenance-anomaly-detection.streamlit.app/)
+
 > **Unified Mentor Research Project in Industrial AI and 6G Cyber-Physical Systems**  
 > An evidence-driven, end-to-end investigation integrating empirical sensor telemetry audits, leak-free multi-scale mode baselines, semi-supervised anomaly modeling, 6G communication decoupling, and economic downtime valuation.
+
+---
+
+## 🖥️ Dashboard Preview
+
+![Fleet overview and KPIs](docs/screenshots/01_fleet_overview.png)  
+*Fleet overview and KPIs*
+
+![Per-machine anomaly scores from three models](docs/screenshots/02_machine_anomaly_scores.png)  
+*Per-machine anomaly scores from three models*
+
+![Prioritized maintenance queue](docs/screenshots/03_alert_queue.png)  
+*Prioritized maintenance queue*
+
+![Tree SHAP attribution and 6G network decoupling](docs/screenshots/04_shap_network_decoupling.png)  
+*Tree SHAP attribution and 6G network decoupling*
+
+![Pre/post-maintenance and operation-mode comparison](docs/screenshots/05_historical_risk.png)  
+*Pre/post-maintenance and operation-mode comparison*
+
+> **Note:** All fault, lead-time, and cost figures shown come from semi-synthetic fault injection on a dataset that appears synthetic; they demonstrate the method, not real-plant performance.
 
 ---
 
